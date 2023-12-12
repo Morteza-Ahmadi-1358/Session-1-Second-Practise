@@ -1,0 +1,84 @@
+/* @font-face {
+  font-family: IranYekanRegular;
+  src: url(../src/assets/Fonts/iranyekan/ttf/iranyekanwebregular\(fanum\).ttf);} */
+body {
+  margin: 0;
+  direction: rtl;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e1e1e1;
+}
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.productsBox {
+  direction: rtl;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  border: 1px solid #ef4056;
+  background-color: #ef4056;
+  border-radius: 7px;
+  margin: 0px auto;
+  min-width: 195px;
+}
+.productCard {
+  flex-basis: 16%;
+  color: #000;
+  background-color: #fff;
+  margin: 15px 1px 1px 1px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: normal;
+  height: 300px;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgProduct {
+  width: 150px;
+}
+.productName {
+  display: block;
+  font-size: 0.875rem;
+  margin: 10px 0px;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
+.newPriceContainer {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.newProductPrice {
+  font-weight: 700;
+}
+.newProductPriceCurrency {
+  font-size: 0.75rem;
+}
+.productDiscount {
+  color: #fff;
+  background-color: #d32f2f;
+  border-radius: 15px;
+  padding: 1px 10px;
+}
+.oldProductPrice {
+  font-size: 0.875rem;
+  color: gray;
+}
+.newPriceBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
